@@ -1,0 +1,26 @@
+.galleryone {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* .galleryone img {
+    width: 100%;
+} */
+
+.galleryone-image {
+    width: 100%;
+}
+
+.galleryone--background {
+    background-color: pink;
+}
+
+.gallerytwo {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.gallerytwo .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
